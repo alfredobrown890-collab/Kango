@@ -1,7 +1,7 @@
 {
   "EnableAds": true,
   "EnableTimer": true,
-  "Notes": "Official release Config 1.0.1\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
+  "Notes": "Official release Config 1.0.2\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
   "Password": "Techjei1",
   "Servers": [
     {
@@ -46,6 +46,23 @@
       "ProxyIP": "moey.gov.jm",
       "ProxyPort": "80",
       "SNI": "",
+      "SshMode": "HTTP Direct",
+      "SslPort": "",
+      "Subname": "HTTP PROXY > PAYLOAD",
+      "TunnelType": "2",
+      "V2BugHost": "",
+      "pInfo": "powered by DevSupport "
+    },
+    {
+      "DNSHost": "music.amazon.com",
+      "Flag": "icon",
+      "Json": "",
+      "Mode": "SSH",
+      "Name": "Flow Unlimited Jamaica",
+      "Payload": "GET wss://[host]/ HTTP/1.1[crlf]Host: Our.today[crlf]Upgrade: websocket[crlf][crlf]",
+      "ProxyIP": "digicel.ly",
+      "ProxyPort": "80",
+      "SNI": "mda.digicelgroup.com",
       "SshMode": "HTTP Direct",
       "SslPort": "",
       "Subname": "HTTP PROXY > PAYLOAD",
