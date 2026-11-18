@@ -1,7 +1,7 @@
 {
   "EnableAds": true,
   "EnableTimer": true,
-  "Notes": "Official release Config 1.0.5\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
+  "Notes": "Official release Config 1.0.6\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
   "Password": "Techjei1",
   "Servers": [
     {
@@ -16,6 +16,21 @@
       "ServerIP": "uk.sshws.net",
       "ServerPass": "123456",
       "ServerUser": "fastssh.com-dev58",
+      "Subname": "",
+      "sInfo": "Server by DevSupport"
+    },
+ {
+      "AutoLogin": "True",
+      "Flag": "us",
+      "Name": "United States",
+      "Port1": "22",
+      "Port2": "80",
+      "Port3": "2086",
+      "Protocol": "SSH",
+      "SSHPort": "22",
+      "ServerIP": "usa1.vpnjz.com",
+      "ServerPass": "123456",
+      "ServerUser": "water23-vpnjantit.com",
       "Subname": "",
       "sInfo": "Server by DevSupport"
     },
