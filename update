@@ -48,7 +48,7 @@
       "SNI": "",
       "SshMode": "HTTP Direct",
       "SslPort": "",
-      "Subname": "HTTP PROXY \u003e PAYLOAD",
+      "Subname": "HTTP PROXY > PAYLOAD",
       "TunnelType": "2",
       "V2BugHost": "",
       "pInfo": "powered by Tropical team "
@@ -56,19 +56,36 @@
     {
       "DNSHost": "",
       "Flag": "icon",
-      "Json": "{\n  \"dns\": {\n    \"hosts\": {\n      \"domain:googleapis.cn\": \"googleapis.com\",\n      \"dns.alidns.com\": [\n        \"223.5.5.5\",\n        \"223.6.6.6\",\n        \"2400:3200::1\",\n        \"2400:3200:baba::1\"\n      ],\n      \"one.one.one.one\": [\n        \"1.1.1.1\",\n        \"1.0.0.1\",\n        \"2606:4700:4700::1111\",\n        \"2606:4700:4700::1001\"\n      ],\n      \"dot.pub\": [\n        \"1.12.12.12\",\n        \"120.53.53.53\"\n      ],\n      \"dns.google\": [\n        \"8.8.8.8\",\n        \"8.8.4.4\",\n        \"2001:4860:4860::8888\",\n        \"2001:4860:4860::8844\"\n      ],\n      \"dns.quad9.net\": [\n        \"9.9.9.9\",\n        \"149.112.112.112\",\n        \"2620:fe::fe\",\n        \"2620:fe::9\"\n      ],\n      \"common.dot.dns.yandex.net\": [\n        \"77.88.8.8\",\n        \"77.88.8.1\",\n        \"2a02:6b8::feed:0ff\",\n        \"2a02:6b8:0:1::feed:0ff\"\n      ]\n    },\n    \"servers\": [\n      \"1.1.1.1\",\n      \"8.8.8.8\"\n    ]\n  },\n  \"inbounds\": [\n    {\n      \"port\": \"1080\",\n      \"protocol\": \"socks\",\n      \"settings\": {\n        \"auth\": \"noauth\",\n        \"udp\": true,\n        \"userLevel\": 8\n      },\n      \"sniffing\": {\n        \"destOverride\": [\n          \"http\",\n          \"tls\"\n        ],\n        \"enabled\": true,\n        \"routeOnly\": false\n      },\n      \"tag\": \"socks\"\n    },\n    {\n      \"listen\": \"127.0.0.1\",\n      \"port\": \"8091\",\n      \"protocol\": \"dokodemo-door\",\n      \"settings\": {\n        \"address\": \"8.8.8.8\",\n        \"network\": \"tcp,udp\",\n        \"port\": 53\n      },\n      \"tag\": \"dns-in\"\n    },\n    {\n      \"listen\": \"127.0.0.1\",\n      \"port\": \"8080\",\n      \"protocol\": \"http\",\n      \"settings\": {\n        \"userLevel\": 8\n      },\n      \"tag\": \"http\"\n    }\n  ],\n  \"log\": {\n    \"loglevel\": \"none\"\n  },\n  \"outbounds\": [\n    {\n      \"mux\": {\n        \"concurrency\": -1,\n        \"enabled\": false\n      },\n      \"protocol\": \"trojan\",\n      \"settings\": {\n        \"servers\": [\n          {\n            \"address\": \"viton.com\",\n            \"level\": 8,\n            \"password\": \"humanity\",\n            \"port\": 443\n          }\n        ]\n      },\n      \"streamSettings\": {\n        \"network\": \"ws\",\n        \"security\": \"tls\",\n        \"tlsSettings\": {\n          \"allowInsecure\": false,\n          \"alpn\": [\n            \"http/1.1\"\n          ],\n          \"serverName\": \"www.calmloud.com\"\n        },\n        \"wsSettings\": {\n          \"headers\": {\n            \"Host\": \"www.calmloud.com\"\n          },\n          \"path\": \"/assignment\"\n        }\n      },\n      \"tag\": \"proxy\"\n    },\n    {\n      \"mux\": {\n        \"concurrency\": 8,\n        \"enabled\": false\n      },\n      \"protocol\": \"freedom\",\n      \"settings\": {\n        \"domainStrategy\": \"UseIP\"\n      },\n      \"tag\": \"direct\"\n    },\n    {\n      \"mux\": {\n        \"concurrency\": 8,\n        \"enabled\": false\n      },\n      \"protocol\": \"blackhole\",\n      \"settings\": {\n        \"response\": {\n          \"type\": \"http\"\n        }\n      },\n      \"tag\": \"block\"\n    }\n  ],\n  \"routing\": {\n    \"domainStrategy\": \"IPIfNonMatch\",\n    \"rules\": [\n      {\n        \"ip\": [\n          \"1.1.1.1\"\n        ],\n        \"outboundTag\": \"proxy\",\n        \"port\": \"53\",\n        \"type\": \"field\"\n      },\n      {\n        \"ip\": [\n          \"223.5.5.5\"\n        ],\n        \"outboundTag\": \"direct\",\n        \"port\": \"53\",\n        \"type\": \"field\"\n      }\n    ]\n  }\n}",
+      "Json": "{\n  \"log\": { \"loglevel\": \"warning\" },\n  \"inbounds\": [\n    {\n      \"listen\": \"127.0.0.1\",\n      \"port\": 10808,\n      \"protocol\": \"socks\",\n      \"settings\": { \"auth\": \"noauth\", \"udp\": true }\n    }\n  ],\n  \"outbounds\": [\n    {\n      \"address\": \"discoverflow.co\",\n      \"port\": 443,\n      \"streamSettings\": {\n        \"network\": \"ws\",\n        \"security\": \"tls\",\n        \"tlsSettings\": { \"serverName\": \"cdn.disws.shop\" },\n        \"wsSettings\": {\n          \"path\": \"/vless\",\n          \"headers\": { \"Host\": \"cdn.disws.shop\" }\n        }\n      },\n      \"mux\": {\n        \"enabled\": true,\n        \"xudpConcurrency\": 16,\n        \"xudpProxyUDP443\": \"allow\"\n      },\n      \"protocol\": \"vless\",\n      \"settings\": {\n        \"vnext\": [\n          {\n            \"address\": \"cdn.disws.shop\",\n            \"port\": 443,\n            \"users\": [\n              {\n                \"id\": \"d744dacb-720f-49cf-a599-726207b8f3a8\",\n                \"encryption\": \"none\"\n              }\n            ]\n          }\n        ]\n      },\n      \"tag\": \"vless-ws-tls\"\n    }\n  ],\n  \"routing\": {\n    \"rules\": [\n      {\n        \"type\": \"field\",\n        \"network\": \"udp\",\n        \"outboundTag\": \"vless-ws-tls\"\n      }\n    ]\n  }\n}",
       "Mode": "SSH",
-      "Name": "Flow Unlimited Jamaica v2ray",
+      "Name": "Flow Unlimited Jamaica VLESS",
       "Payload": "",
       "ProxyIP": "",
       "ProxyPort": "",
       "SNI": "",
       "SshMode": "HTTP Direct",
       "SslPort": "",
-      "Subname": "V2Ray",
+      "Subname": "Flow Unlimited",
       "TunnelType": "6",
       "V2BugHost": "",
-      "pInfo": "powered by DevSupport "
+      "pInfo": "powered by DevSupport"
+    },
+    {
+      "DNSHost": "",
+      "Flag": "icon",
+      "Json": "{\n  \"log\": { \"loglevel\": \"warning\" },\n  \"inbounds\": [\n    {\n      \"listen\": \"127.0.0.1\",\n      \"port\": 10808,\n      \"protocol\": \"socks\",\n      \"settings\": { \"auth\": \"noauth\", \"udp\": true }\n    }\n  ],\n  \"outbounds\": [\n    {\n      \"tag\": \"ss2022-ws-tls\",\n      \"protocol\": \"shadowsocks\",\n      \"settings\": {\n        \"servers\": [\n          {\n            \"address\": \"discoverflow.co\",\n            \"port\": 443,\n            \"method\": \"2022-blake3-chacha20-poly1305\",\n            \"password\": \"cEukr7o0VrNVo2y1T5ciamMpyw71/7Bapr78AYPS9Zg=\"\n          }\n        ]\n      },\n      \"streamSettings\": {\n        \"network\": \"ws\",\n        \"security\": \"tls\",\n        \"tlsSettings\": { \"serverName\": \"cdn.disws.shop\" },\n        \"wsSettings\": {\n          \"path\": \"/ss2022-ws/23\",\n          \"headers\": { \"Host\": \"cdn.disws.shop\" }\n        }\n      },\n      \"mux\": {\n        \"enabled\": true,\n        \"xudpConcurrency\": 16,\n        \"xudpProxyUDP443\": \"allow\"\n      }\n    }\n  ],\n  \"routing\": {\n    \"rules\": [\n      {\n        \"type\": \"field\",\n        \"network\": \"udp\",\n        \"outboundTag\": \"ss2022-ws-tls\"\n      }\n    ]\n  }\n}",
+      "Mode": "SSH",
+      "Name": "Flow Unlimited Jamaica Shadowsock",
+      "Payload": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "SNI": "",
+      "SshMode": "HTTP Direct",
+      "SslPort": "",
+      "Subname": "Flow Unlimited",
+      "TunnelType": "6",
+      "V2BugHost": "",
+      "pInfo": "powered by DevSupport"
     }
   ],
   "Version": "1.0.0"
