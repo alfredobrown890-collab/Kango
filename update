@@ -1,7 +1,7 @@
 {
   "EnableAds": true,
   "EnableTimer": true,
-  "Notes": "Official release Config 1.0.2\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
+  "Notes": "Official release Config 1.0.3\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
   "Password": "Techjei1",
   "Servers": [
     {
@@ -12,7 +12,7 @@
       "Port2": "80",
       "Port3": "2086",
       "Protocol": "SSH",
-      "SSHPort": "22",
+      "SSHPort": "443",
       "ServerIP": "uk.sshws.net",
       "ServerPass": "123456",
       "ServerUser": "fastssh.com-dev58",
@@ -27,7 +27,7 @@
       "Port2": "80",
       "Port3": "2086",
       "Protocol": "SSH",
-      "SSHPort": "22",
+      "SSHPort": "443",
       "ServerIP": "us1.sshws.net",
       "ServerPass": "123456",
       "ServerUser": "fastssh.com-dev56",
@@ -64,7 +64,7 @@
       "ProxyPort": "80",
       "SNI": "mda.digicelgroup.com",
       "SshMode": "HTTP Direct",
-      "SslPort": "",
+      "SslPort": "443",
       "Subname": "HTTP PROXY > PAYLOAD",
       "TunnelType": "2",
       "V2BugHost": "",
