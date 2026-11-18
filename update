@@ -1,7 +1,7 @@
 {
   "EnableAds": true,
   "EnableTimer": true,
-  "Notes": "Official release Config 1.0.0\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:@Techjei",
+  "Notes": "Official release Config 1.0.0\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
   "Password": "Techjei1",
   "Servers": [
     {
@@ -17,7 +17,7 @@
       "ServerPass": "doingsedozlite",
       "ServerUser": "edozlitedoings",
       "Subname": "",
-      "sInfo": "Server by Techjei"
+      "sInfo": "Server by DevSupport"
     },
     {
       "AutoLogin": "True",
@@ -32,7 +32,7 @@
       "ServerPass": "doingsedozpro",
       "ServerUser": "edozprodoings",
       "Subname": "",
-      "sInfo": "powered by Tropical team"
+      "sInfo": "powered by DevSupport"
     }
   ],
   "Tweaks": [
@@ -41,9 +41,9 @@
       "Flag": "icon",
       "Json": "",
       "Mode": "SSH",
-      "Name": "Airtel 150mbs Kenya",
-      "Payload": "METFONE /cdn-cgi/trace, HTTP/1.1[crlf]Host: [host][crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host] [crlf],Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
-      "ProxyIP": "viton.com",
+      "Name": "Flow Unlimited Jamaica",
+      "Payload": "GET /cdn-cgi/trace, HTTP/1.1[crlf]Host: [host][crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host] [crlf],Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "ProxyIP": "moey.gov.jm",
       "ProxyPort": "80",
       "SNI": "",
       "SshMode": "HTTP Direct",
@@ -58,7 +58,7 @@
       "Flag": "icon",
       "Json": "{\n  \"dns\": {\n    \"hosts\": {\n      \"domain:googleapis.cn\": \"googleapis.com\",\n      \"dns.alidns.com\": [\n        \"223.5.5.5\",\n        \"223.6.6.6\",\n        \"2400:3200::1\",\n        \"2400:3200:baba::1\"\n      ],\n      \"one.one.one.one\": [\n        \"1.1.1.1\",\n        \"1.0.0.1\",\n        \"2606:4700:4700::1111\",\n        \"2606:4700:4700::1001\"\n      ],\n      \"dot.pub\": [\n        \"1.12.12.12\",\n        \"120.53.53.53\"\n      ],\n      \"dns.google\": [\n        \"8.8.8.8\",\n        \"8.8.4.4\",\n        \"2001:4860:4860::8888\",\n        \"2001:4860:4860::8844\"\n      ],\n      \"dns.quad9.net\": [\n        \"9.9.9.9\",\n        \"149.112.112.112\",\n        \"2620:fe::fe\",\n        \"2620:fe::9\"\n      ],\n      \"common.dot.dns.yandex.net\": [\n        \"77.88.8.8\",\n        \"77.88.8.1\",\n        \"2a02:6b8::feed:0ff\",\n        \"2a02:6b8:0:1::feed:0ff\"\n      ]\n    },\n    \"servers\": [\n      \"1.1.1.1\",\n      \"8.8.8.8\"\n    ]\n  },\n  \"inbounds\": [\n    {\n      \"port\": \"1080\",\n      \"protocol\": \"socks\",\n      \"settings\": {\n        \"auth\": \"noauth\",\n        \"udp\": true,\n        \"userLevel\": 8\n      },\n      \"sniffing\": {\n        \"destOverride\": [\n          \"http\",\n          \"tls\"\n        ],\n        \"enabled\": true,\n        \"routeOnly\": false\n      },\n      \"tag\": \"socks\"\n    },\n    {\n      \"listen\": \"127.0.0.1\",\n      \"port\": \"8091\",\n      \"protocol\": \"dokodemo-door\",\n      \"settings\": {\n        \"address\": \"8.8.8.8\",\n        \"network\": \"tcp,udp\",\n        \"port\": 53\n      },\n      \"tag\": \"dns-in\"\n    },\n    {\n      \"listen\": \"127.0.0.1\",\n      \"port\": \"8080\",\n      \"protocol\": \"http\",\n      \"settings\": {\n        \"userLevel\": 8\n      },\n      \"tag\": \"http\"\n    }\n  ],\n  \"log\": {\n    \"loglevel\": \"none\"\n  },\n  \"outbounds\": [\n    {\n      \"mux\": {\n        \"concurrency\": -1,\n        \"enabled\": false\n      },\n      \"protocol\": \"trojan\",\n      \"settings\": {\n        \"servers\": [\n          {\n            \"address\": \"viton.com\",\n            \"level\": 8,\n            \"password\": \"humanity\",\n            \"port\": 443\n          }\n        ]\n      },\n      \"streamSettings\": {\n        \"network\": \"ws\",\n        \"security\": \"tls\",\n        \"tlsSettings\": {\n          \"allowInsecure\": false,\n          \"alpn\": [\n            \"http/1.1\"\n          ],\n          \"serverName\": \"www.calmloud.com\"\n        },\n        \"wsSettings\": {\n          \"headers\": {\n            \"Host\": \"www.calmloud.com\"\n          },\n          \"path\": \"/assignment\"\n        }\n      },\n      \"tag\": \"proxy\"\n    },\n    {\n      \"mux\": {\n        \"concurrency\": 8,\n        \"enabled\": false\n      },\n      \"protocol\": \"freedom\",\n      \"settings\": {\n        \"domainStrategy\": \"UseIP\"\n      },\n      \"tag\": \"direct\"\n    },\n    {\n      \"mux\": {\n        \"concurrency\": 8,\n        \"enabled\": false\n      },\n      \"protocol\": \"blackhole\",\n      \"settings\": {\n        \"response\": {\n          \"type\": \"http\"\n        }\n      },\n      \"tag\": \"block\"\n    }\n  ],\n  \"routing\": {\n    \"domainStrategy\": \"IPIfNonMatch\",\n    \"rules\": [\n      {\n        \"ip\": [\n          \"1.1.1.1\"\n        ],\n        \"outboundTag\": \"proxy\",\n        \"port\": \"53\",\n        \"type\": \"field\"\n      },\n      {\n        \"ip\": [\n          \"223.5.5.5\"\n        ],\n        \"outboundTag\": \"direct\",\n        \"port\": \"53\",\n        \"type\": \"field\"\n      }\n    ]\n  }\n}",
       "Mode": "SSH",
-      "Name": "Airtel Kenya 100mbs v2ray",
+      "Name": "Flow Unlimited Jamaica v2ray",
       "Payload": "",
       "ProxyIP": "",
       "ProxyPort": "",
@@ -68,7 +68,7 @@
       "Subname": "V2Ray",
       "TunnelType": "6",
       "V2BugHost": "",
-      "pInfo": "powered by Tropical team "
+      "pInfo": "powered by DevSupport "
     }
   ],
   "Version": "1.0.0"
