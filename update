@@ -82,7 +82,7 @@
       "SNI": "",
       "SshMode": "HTTP Direct",
       "SslPort": "",
-      "Subname": "Flow Unlimited",
+      "Subname": "Xray JSON (VMess/VLESS/Trojan)",
       "TunnelType": "6",
       "V2BugHost": "",
       "pInfo": "powered by DevSupport"
@@ -99,11 +99,11 @@
       "SNI": "",
       "SshMode": "HTTP Direct",
       "SslPort": "",
-      "Subname": "Flow Unlimited",
+      "Subname": "Xray Shadowsocks",
       "TunnelType": "6",
       "V2BugHost": "",
       "pInfo": "powered by DevSupport"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.0.4"
 }
