@@ -54,15 +54,15 @@
       "pInfo": "powered by DevSupport "
     },
     {
-      "DNSHost": "music.amazon.com",
+      "DNSHost": "",
       "Flag": "icon",
       "Json": "",
       "Mode": "SSH",
       "Name": "Flow Unlimited Jamaica",
       "Payload": "GET wss://[host]/ HTTP/1.1[crlf]Host: Our.today[crlf]Upgrade: websocket[crlf][crlf]",
-      "ProxyIP": "digicel.ly",
+      "ProxyIP": "loans.jncb.com",
       "ProxyPort": "80",
-      "SNI": "mda.digicelgroup.com",
+      "SNI": "",
       "SshMode": "HTTP Direct",
       "SslPort": "443",
       "Subname": "HTTP PROXY > PAYLOAD",
