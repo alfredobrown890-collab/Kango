@@ -13,9 +13,9 @@
       "Port3": "2086",
       "Protocol": "SSH",
       "SSHPort": "22",
-      "ServerIP": "us1.sshws.net",
+      "ServerIP": "uk.sshws.net",
       "ServerPass": "123456",
-      "ServerUser": "fastssh.com-dev56",
+      "ServerUser": "fastssh.com-dev58",
       "Subname": "",
       "sInfo": "Server by DevSupport"
     },
