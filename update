@@ -1,7 +1,7 @@
 {
   "EnableAds": true,
   "EnableTimer": true,
-  "Notes": "Official release Config 1.0.4\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
+  "Notes": "Official release Config 1.0.5\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
   "Password": "Techjei1",
   "Servers": [
     {
@@ -63,6 +63,23 @@
       "ProxyIP": "loans.jncb.com",
       "ProxyPort": "80",
       "SNI": "",
+      "SshMode": "HTTP Direct",
+      "SslPort": "443",
+      "Subname": "HTTP PROXY > PAYLOAD",
+      "TunnelType": "2",
+      "V2BugHost": "",
+      "pInfo": "powered by DevSupport "
+    },
+    {
+      "DNSHost": "static.ada.support",
+      "Flag": "icon",
+      "Json": "",
+      "Mode": "SSH",
+      "Name": "Digicel limited Jamaica",
+      "Payload": "",
+      "ProxyIP": "loans.jncb.com",
+      "ProxyPort": "80",
+      "SNI": "mda.digicelgroup.com",
       "SshMode": "HTTP Direct",
       "SslPort": "443",
       "Subname": "HTTP PROXY > PAYLOAD",
