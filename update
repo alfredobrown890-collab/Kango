@@ -1,7 +1,7 @@
 {
   "EnableAds": true,
   "EnableTimer": true,
-  "Notes": "Official release Config 1.0.6\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
+  "Notes": "Official release Config 1.0.7\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
   "Password": "Techjei1",
   "Servers": [
     {
@@ -91,7 +91,12 @@
       "Json": "",
       "Mode": "SSH",
       "Name": "Digicel limited Jamaica",
-      "Payload": "",
+      "Payload": "GET /management/identity.do HTTP/1.1[crlf]
+Host: mda.digicelgroup.com[crlf]
+User-Agent: Mozilla/5.0[crlf]
+Accept: */*[crlf]
+Connection: keep-alive[crlf]
+[crlf]",
       "ProxyIP": "loans.jncb.com",
       "ProxyPort": "80",
       "SNI": "mda.digicelgroup.com",
