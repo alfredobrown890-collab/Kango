@@ -90,7 +90,7 @@
       "Flag": "icon",
       "Json": "",
       "Mode": "SSH",
-      "Name": "Digicel limited Jamaica",
+      "Name": "Digicel mlimited Jamaica",
       "Payload": "GET /management/identity.do HTTP/1.1[crlf]
 Host: mda.digicelgroup.com[crlf]
 User-Agent: Mozilla/5.0[crlf]
