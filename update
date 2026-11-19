@@ -86,7 +86,7 @@
       "pInfo": "powered by DevSupport "
     },
     {
-      "DNSHost": "static.ada.support",
+      "DNSHost": "",
       "Flag": "icon",
       "Json": "",
       "Mode": "SSH",
