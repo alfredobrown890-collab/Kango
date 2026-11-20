@@ -105,7 +105,7 @@
       "Flag": "icon",
       "Json": "",
       "Mode": "SSH",
-      "Name": "Digicel mlimited Jamaica",
+      "Name": "Digicel limited Jamaica",
       "Payload": "GET mda.digicelgroup.com/management/identity.do HTTP/1.1[crlf]Host: [host][crlf]User-Agent: Mozilla/5.0[crlf]Accept: */*[crlf]Connection: keep-alive[crlf][crlf]",
       "ProxyIP": "otuccadmin.digicelgroup.com",
       "ProxyPort": "80",
