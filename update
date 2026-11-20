@@ -91,17 +91,17 @@
       "Json": "",
       "Mode": "SSH",
       "Name": "Digicel mlimited Jamaica",
-      "Payload": "GET /management/identity.do HTTP/1.1[crlf]
-Host: mda.digicelgroup.com[crlf]
+      "Payload": "GET mda.digicelgroup.com/management/identity.do HTTP/1.1[crlf]
+Host: [host][crlf]
 User-Agent: Mozilla/5.0[crlf]
 Accept: */*[crlf]
 Connection: keep-alive[crlf]
 [crlf]",
-      "ProxyIP": "loans.jncb.com",
-      "ProxyPort": "80",
-      "SNI": "mda.digicelgroup.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "SNI": "",
       "SshMode": "HTTP Direct",
-      "SslPort": "443",
+      "SslPort": "",
       "Subname": "HTTP PROXY > PAYLOAD",
       "TunnelType": "2",
       "V2BugHost": "",
