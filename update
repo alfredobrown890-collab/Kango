@@ -1,7 +1,7 @@
 {
   "EnableAds": true,
   "EnableTimer": true,
-  "Notes": "Official release Config 1.0.9\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
+  "Notes": "Official release Config 1.0.10\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
   "Password": "Techjei1",
   "Servers": [
     {
@@ -48,6 +48,21 @@
       "ServerUser": "opentunnel.net-grok8989",
       "Subname": "",
       "sInfo": "powered by DevSupport"
+    },
+   {
+      "AutoLogin": "True",
+      "Flag": "us",
+      "Name": "United States",
+      "Port1": "443",
+      "Port2": "80",
+      "Port3": "8880",
+      "Protocol": "SSH",
+      "SSHPort": "443",
+      "ServerIP": "us-3.stunnel.cc",
+      "ServerPass": "123456",
+      "ServerUser": "tunnel-htieos45",
+      "Subname": "",
+      "sInfo": "powered by DevSupport"
     }
   ],
   "Tweaks": [
@@ -75,7 +90,7 @@
       "Mode": "SSH",
       "Name": "Flow Unlimited Jamaica",
       "Payload": "GET wss://[host]/ HTTP/1.1[crlf]Host: Our.today[crlf]Upgrade: websocket[crlf][crlf]",
-      "ProxyIP": "discoverflow.co",
+      "ProxyIP": "topupflow.com",
       "ProxyPort": "80",
       "SNI": "",
       "SshMode": "HTTP Direct",
@@ -142,5 +157,5 @@ Connection: keep-alive[crlf]
       "pInfo": "powered by DevSupport"
     }
   ],
-  "Version": "1.0.9"
+  "Version": "1.0.10"
 }
