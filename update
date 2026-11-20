@@ -1,7 +1,7 @@
 {
   "EnableAds": true,
   "EnableTimer": true,
-  "Notes": "Official release Config 1.0.8\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
+  "Notes": "Official release Config 1.0.9\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
   "Password": "Techjei1",
   "Servers": [
     {
@@ -40,7 +40,7 @@
       "Name": "Canada",
       "Port1": "443",
       "Port2": "80",
-      "Port3": "8080",
+      "Port3": "80",
       "Protocol": "SSH",
       "SSHPort": "443",
       "ServerIP": "cas-1.optnl.com",
@@ -97,8 +97,8 @@ User-Agent: Mozilla/5.0[crlf]
 Accept: */*[crlf]
 Connection: keep-alive[crlf]
 [crlf]",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyIP": "shop.digicelgroup.com",
+      "ProxyPort": "80",
       "SNI": "",
       "SshMode": "HTTP Direct",
       "SslPort": "",
@@ -142,5 +142,5 @@ Connection: keep-alive[crlf]
       "pInfo": "powered by DevSupport"
     }
   ],
-  "Version": "1.0.8"
+  "Version": "1.0.9"
 }
