@@ -106,12 +106,7 @@
       "Json": "",
       "Mode": "SSH",
       "Name": "Digicel mlimited Jamaica",
-      "Payload": "GET mda.digicelgroup.com/management/identity.do HTTP/1.1[crlf]
-Host: [host][crlf]
-User-Agent: Mozilla/5.0[crlf]
-Accept: */*[crlf]
-Connection: keep-alive[crlf]
-[crlf]",
+      "Payload": "GET mda.digicelgroup.com/management/identity.do HTTP/1.1[crlf]Host: [host][crlf]User-Agent: Mozilla/5.0[crlf]Accept: */*[crlf]Connection: keep-alive[crlf][crlf]",
       "ProxyIP": "shop.digicelgroup.com",
       "ProxyPort": "80",
       "SNI": "",
