@@ -36,16 +36,16 @@
     },
     {
       "AutoLogin": "True",
-      "Flag": "fr",
-      "Name": "France",
+      "Flag": "ca",
+      "Name": "Canada",
       "Port1": "443",
       "Port2": "80",
-      "Port3": "2086",
+      "Port3": "8080",
       "Protocol": "SSH",
       "SSHPort": "443",
-      "ServerIP": "us1.sshws.net",
+      "ServerIP": "cas-1.optnl.com",
       "ServerPass": "123456",
-      "ServerUser": "fastssh.com-dev56",
+      "ServerUser": "opentunnel.net-grok8989",
       "Subname": "",
       "sInfo": "powered by DevSupport"
     }
@@ -75,7 +75,7 @@
       "Mode": "SSH",
       "Name": "Flow Unlimited Jamaica",
       "Payload": "GET wss://[host]/ HTTP/1.1[crlf]Host: Our.today[crlf]Upgrade: websocket[crlf][crlf]",
-      "ProxyIP": "loans.jncb.com",
+      "ProxyIP": "discoverflow.co",
       "ProxyPort": "80",
       "SNI": "",
       "SshMode": "HTTP Direct",
@@ -142,5 +142,5 @@ Connection: keep-alive[crlf]
       "pInfo": "powered by DevSupport"
     }
   ],
-  "Version": "1.0.4"
+  "Version": "1.0.8"
 }
