@@ -1,7 +1,7 @@
 {
   "EnableAds": true,
   "EnableTimer": true,
-  "Notes": "Official release Config 1.0.11\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
+  "Notes": "Official release Config 1.0.12\n\n🔴France server added ✅ \n🔴United kingdom server added ✅ \n🔴New Airtel kenya Tweaks Added \n\nCredits:DevSupport",
   "Password": "Techjei1",
   "Servers": [
     {
@@ -90,7 +90,7 @@
       "Mode": "SSH",
       "Name": "Flow Unlimited Jamaica",
       "Payload": "GET wss://[host]/ HTTP/1.1[crlf]Host: Our.today[crlf]Upgrade: websocket[crlf][crlf]",
-      "ProxyIP": "topupflow.com",
+      "ProxyIP": "opm.gov.jm",
       "ProxyPort": "80",
       "SNI": "",
       "SshMode": "HTTP Direct",
@@ -152,5 +152,5 @@
       "pInfo": "powered by DevSupport"
     }
   ],
-  "Version": "1.0.11"
+  "Version": "1.0.12"
 }
